@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+#form{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#tarefa, #enviar{
+    border: 1px solid lightgray;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#tarefa{    
+    opacity: .5;
+    width: 60%;
+}
+
+.botao{    
+    width: 15%;
+    background-color: gainsboro;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+#novas-tarefa{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    margin-top: 20px;
+}
+  
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+}
+
